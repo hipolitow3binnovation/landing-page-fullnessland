@@ -3,7 +3,7 @@ import logo_fullnessland from "../assets/logo_fullnessland.svg";
 
 const Hero = () => {
   return (
-    <section className="h-[100vh] lg:h-screen bg-[url('./assets/home.webp')] relative bg-no-repeat bg-cover bg-top bg-fixed">
+    <section className="min-h-screen h-screen bg-[url('./assets/home.webp')] relative bg-no-repeat bg-cover bg-top bg-fixed">
       <div className="absolute inset-0 w-full h-full backdrop-opacity-10 backdrop-invert bg-black/50"></div>
       <div className="absolute bottom-0 flex flex-col justify-end w-full gap-8 h-fit lg:h-96">
         <div className="flex items-center justify-center">
