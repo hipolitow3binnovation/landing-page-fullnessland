@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-full gap-16">
+    <footer className="flex flex-col w-full gap-16">
       <div className="flex justify-center gap-4 lg:justify-normal">
         <Link to="https://www.facebook.com/FullnessLand" target="_blank">
           <ion-icon name="logo-facebook" size="large"></ion-icon>
@@ -29,7 +29,7 @@ const Footer = () => {
           © 2024 FULLNESSLAND. Todos los derechos reservados.
         </p>
       </div>
-    </div>
+    </footer>
   );
 };
 

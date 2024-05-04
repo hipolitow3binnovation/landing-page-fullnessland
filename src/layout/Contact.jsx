@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <section className="w-full h-fit bg-[url('./assets/jungle.webp')] relative bg-no-repeat bg-cover bg-bottom bg-fixed">
+    <section className="w-full bg-[url('./assets/jungle.webp')] relative bg-no-repeat bg-cover bg-bottom bg-fixed">
       <div className="absolute inset-0 w-full h-full bg-lime-800/25"></div>
       <div className="container relative flex flex-col justify-center w-full h-full gap-24 py-12 mx-auto text-white lg:gap-0">
         <div className="flex flex-col items-center gap-24 lg:flex-row lg:gap-0 lg:justify-evenly">
