@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"],
+select,
+textarea {
+  @apply block w-full px-3 py-2 mt-1 text-sm bg-white border-0 border-b md:text-base text-slate-800 border-slate-300 placeholder:text-base placeholder:font-sans placeholder-slate-600 focus:outline-none focus:border-0 focus:border-b focus:border-lime-500 sm:text-sm focus:ring-0;
+}
