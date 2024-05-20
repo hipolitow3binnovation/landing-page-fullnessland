@@ -1,5 +1,5 @@
 import React from "react";
-import table from "../assets/table.png";
+import table from "../assets/table.svg";
 
 const Feature = () => {
   return (
